@@ -1,9 +1,8 @@
 import json
-import base64
 import requests
 from user_data import data_prompt_file_path,token, data_base_url
 import json
-from transformers import pipeline
+
 
 import re
 from database import SelectData, keyword_similarity
